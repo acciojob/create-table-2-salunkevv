@@ -1,7 +1,8 @@
 function createTable() {
   //Write your code here
-let cn= prompt("Input number of colums");
 let rn=prompt("Input number of rows");
+let cn= prompt("Input number of columns");
+
 let table= document.getElementById("myTable");
 for(let i=0;i<rn;i++)
 {
